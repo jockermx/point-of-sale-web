@@ -1,0 +1,54 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "idUser": 1,
+      "user": "jocker",
+      "password": "test",
+      "name": "antonio",
+      "lastName": "vazquez",
+      "email": "antonio.vsalas@gmail.com",
+      "role": true,
+      "status": 1,
+      "creationDate": "2022-07-01"
+    },
+    {
+      "idUser": 2,
+      "user": "jake",
+      "password": "test",
+      "name": "marco",
+      "lastName": "lopez",
+      "email": "marco.lopez@gmail.com",
+      "role": true,
+      "status": 1,
+      "creationDate": "2022-07-01"
+    },
+    {
+      "idUser": 3,
+      "user": "mate",
+      "password": "test",
+      "name": "jorge",
+      "lastName": "ramirez",
+      "email": "jorge.ramirez@gmail.com",
+      "role": true,
+      "status": 2,
+      "creationDate": "2022-07-01"
+    }
+  ]
+}
